@@ -6,8 +6,11 @@ function App() {
   return (
     <div className="App">
       <h1>React App</h1>
-      <Header/>
-      <Footer/>
+      <Header name = "from functional component"/>
+      <Footer name = "from class component"/>
+      <Header name = "from functional component"/>
+      <Footer name = "from class component"/>
+
     </div>
   );
 }
