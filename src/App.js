@@ -1,22 +1,23 @@
-import React from "react";
-import Header from "./Components/Header";
-import Footer from "./Components/Footer";
+import React, {Component} from "react";
 import Greet from "./Components/Greet";
 import Welcome from "./Components/Welcome";
-import Hello from "./Components/Hello";
 
-function App() {
-  return (
-    <div className="App">
-      <h1>React App</h1>
-      <Header name = "from functional component"/>
-      <Footer name = "from class component"/>
-      <Greet name = "from functional component"/>
-      <Welcome name = "from class component"/>
-      <Hello name = "from JSX version of functional component"/>
-
-    </div>
-  );
+class App extends Component {
+  render() {
+    return (
+      <div className="App">
+        <Greet name="Shreya" heroName="Wonder Woman">
+          <p>This is children props from function component</p> </Greet>
+        <Greet name="Phani" heroName="Ajith">
+          <button>Action</button>
+        </Greet>
+        <Greet name="Bonky" heroName="Charlie" />
+        <Welcome name="Deepika" heroName="Nibbi Star">
+          <p>This is children props from class component</p> </Welcome>
+     
+      </div>
+    );
+  }
 }
 
 export default App;
