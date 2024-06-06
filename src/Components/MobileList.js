@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 
 const mobiles = [
     {
@@ -47,9 +47,20 @@ const mobiles = [
   ];
 
   const MobileList = () => {
+    const [showMobiles, setShowMobiles] = useState(false);
+
+    const handleCheckboxChange = (event) => {
+      setShowMobiles(event.target.checked);
+    };
+
     return(
         <div>
             <h1>Mobile Phones</h1>
+            <label>
+              <input type='checkbox' checked= {showMobiles} onChange={handleCheckboxChange} />
+              Show Mobiles
+            </label>
+            {showMobiles && (
             <ul>
                 {mobiles.map((mobile, index) => (
                     <li key = {index}>
@@ -60,9 +71,9 @@ const mobiles = [
                         <p>Battery Capacity: {mobile.batteryCapacity}</p>
                         <p>Price: ${mobile.price}</p>
                     </li>
-                )
-            )}
+                ))}
             </ul>
+            )}
         </div>
     );
   };

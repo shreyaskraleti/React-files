@@ -1,6 +1,8 @@
 import React from "react";
 import MobileList from "./Components/MobileList";
-import PopularProducts from "./Components/PopularProducts";
+import LaptopList from "./Components/LaptopList";
+import HeadsetList from "./Components/HeadsetList";
+// import PopularProducts from "./Components/PopularProducts";
 /* import './App.css';
 // import Greet from "./Components/Greet";
 // import Welcome from "./Components/Welcome";
@@ -13,7 +15,8 @@ function App() {
   return(
     <div className="App">
       <MobileList />
-      <PopularProducts />
+      <LaptopList />
+      <HeadsetList />
       </div>
   );
 }
@@ -33,6 +36,7 @@ export default App;
         <Greet name= "Shreya" heroName="Wonder Woman" />
         <Welcome name="Deepika" heroName="Nibbi Star" />
          <Card />
+         <PopularProducts />
   
     */ 
 
