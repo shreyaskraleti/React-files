@@ -4,6 +4,7 @@ header {
     background-color: whitesmoke;
     padding: 10px;
     color: black;
+    font-size: 14px;
 }
 
 .logo img {
@@ -44,7 +45,7 @@ nav ul li a:hover {
 
 .header-icons .fa {
     color: black;
-    font-size: 1.2em;
+    font-size: 12px;
     cursor: pointer;
 }
 
@@ -55,7 +56,7 @@ nav ul li a:hover {
     padding: 10px 20px;
     cursor: pointer;
     border-radius: 5px;
-    font-size: 1em;
+    font-size: 12px;
 
 }
 
