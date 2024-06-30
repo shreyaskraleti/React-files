@@ -150,3 +150,57 @@ h1 {
     font-weight: bold;
     margin: 30px;
 }
+
+.butn-1:hover {
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+}
+
+.heading {
+    text-align: start;
+    margin-left: 10px;
+}
+
+.author-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    max-width: 800px;
+    margin: 20px;
+}
+
+.author-images {
+    display: flex;
+    align-items: center;
+    gap: 200px;
+    
+}
+
+.author-images img {
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    margin-right: 15px;
+}
+
+.author-images p {
+    font-size: 10px;
+    margin: 0;
+}
+
+.footer {
+    height: 30px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: start;
+    font-size: 10px;
+    margin-top: 10px;
+}

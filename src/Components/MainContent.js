@@ -6,6 +6,9 @@ import image2 from '../assets/kalpana.jpeg';
 import image3 from '../assets/image-3.jpg';
 import image4 from '../assets/image-4.jpg';
 import image5 from '../assets/image-5.jpg';
+import image6 from '../assets/image-6.jpeg';
+import image7 from '../assets/image-7.jpeg';
+import image8 from '../assets/image-8.jpeg';
 
 
 const MainContent = () => {
@@ -69,6 +72,37 @@ const MainContent = () => {
                     </div>
                 </div>
                 <button className="butn-1">Browse all Posts</button>
+                <h2 className="heading">Top Authors</h2>
+                <div className="author-card">
+                    <div className="author-images">
+                        <div className="image-card" >
+                        <img src={image6} alt="Image-6" />
+                        <h2>Agatha Christie</h2>
+                        <p>Famous Author</p>
+                        <p>74 Published novels</p>
+                        </div>
+                        <div className="image-card" >
+                        <img src={image7} alt="Image-7" />
+                        <h2>William Shakespeare</h2>
+                        <p>Famous Author</p>
+                        <p>154 Published sonnets</p>
+                        </div>
+                        <div className="image-card" >
+                        <img src={image8} alt="Image-8" />
+                        <h2>Rabindranath Tagore</h2>
+                        <p>Famous Author</p>
+                        <p>235 Published novels</p>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <h2>Subscribe to Newsletter</h2>
+                <p>Provide your email to get email notifications when we launch new products or publish new articles</p>
+
+
+                <p className="footer">@2024 AchieversIT All rights reserved</p>
             </div>
             
                 
