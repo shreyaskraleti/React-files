@@ -100,7 +100,8 @@ const MainContent = () => {
 
                 <h2>Subscribe to Newsletter</h2>
                 <p>Provide your email to get email notifications when we launch new products or publish new articles</p>
-
+                <input type="email" placeholder="Enter your Email id:"></input>
+                <button className="sub">Subscribe</button>
 
                 <p className="footer">@2024 AchieversIT All rights reserved</p>
             </div>
