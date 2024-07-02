@@ -42,7 +42,7 @@
   font-size: xx-large;
   color: black;
   background-color: chartreuse;
-} */
+} 
 
 .App {
   text-align: center;
@@ -51,10 +51,27 @@
 button {
   cursor: pointer;
   background-color: aqua;
-  padding: 10px;
+  padding: 8px;
   margin: 5px;
   border: 1px solid aqua;
   border-radius: 5px;
   font-size: 15px;
   font-weight: bold;
+} */
+
+.App {
+  text-align: center;
+  margin: 10px;
+}
+
+button {
+  cursor: pointer;
+  background-color: aquamarine;
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 10px;
+  border: 1px solid aquamarine;
+  border-radius: 5px;
+  margin: 10px;
 }

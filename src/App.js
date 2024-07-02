@@ -1,4 +1,6 @@
 import React from "react";
+import './App.css';
+import Quotes from "./Components/Quotes";
 //  { BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 // import Header from "./Components/Header";
 // import MainContent from "./Components/MainContent";
@@ -6,8 +8,7 @@ import React from "react";
 // import Pages from "./Components/Pages";
 // import Blogs from "./Components/Blogs";
 // import Support from "./Components/Support";
-import './App.css';
-import Counters from "./Components/Counters";
+// Counters from "./Components/Counters";
 
 // import MobileList from "./Components/MobileList";
 // import LaptopList from "./Components/LaptopList";
@@ -25,8 +26,9 @@ import Counters from "./Components/Counters";
 function App() {
   return(
     <div className="App">
-      <h1>Counter App</h1>
-      <Counters />
+      <h2>Quotes Generator</h2>
+      <Quotes />
+      
       
       </div>
   
@@ -66,6 +68,8 @@ export default App;
       <Route path="/support" element={<Support />} />
       </Routes>
       </Router>
+
+      <Counters />
   
     */ 
 
