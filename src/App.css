@@ -35,11 +35,26 @@
   to {
     transform: rotate(360deg);
   }
-} */
+} 
 
 .external {
   list-style: none;
   font-size: xx-large;
   color: black;
   background-color: chartreuse;
+} */
+
+.App {
+  text-align: center;
+}
+
+button {
+  cursor: pointer;
+  background-color: aqua;
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid aqua;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: bold;
 }

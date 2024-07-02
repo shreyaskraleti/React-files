@@ -1,12 +1,13 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Routes} from 'react-router-dom';
-import Header from "./Components/Header";
-import MainContent from "./Components/MainContent";
-import Home from "./Components/Home";
-import Pages from "./Components/Pages";
-import Blogs from "./Components/Blogs";
-import Support from "./Components/Support";
+//  { BrowserRouter as Router, Route, Routes} from 'react-router-dom';
+// import Header from "./Components/Header";
+// import MainContent from "./Components/MainContent";
+// import Home from "./Components/Home";
+// import Pages from "./Components/Pages";
+// import Blogs from "./Components/Blogs";
+// import Support from "./Components/Support";
 import './App.css';
+import Counters from "./Components/Counters";
 
 // import MobileList from "./Components/MobileList";
 // import LaptopList from "./Components/LaptopList";
@@ -21,20 +22,14 @@ import './App.css';
 // import Card from "./Components/Card"; */
 
 
-const App = () => {
+function App() {
   return(
-    <Router>
     <div className="App">
-      <Header />
-      <MainContent />
-      <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/pages" element={<Pages />} />
-      <Route path="/blogs" element={<Blogs />} />
-      <Route path="/support" element={<Support />} />
-      </Routes>
+      <h1>Counter App</h1>
+      <Counters />
+      
       </div>
-      </Router>
+  
   );
 };
 
@@ -61,6 +56,16 @@ export default App;
       <FunctionClick />
       <ClassClick />
       <EventBind />
+      <Router>
+      <Header />
+      <MainContent />
+      <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/pages" element={<Pages />} />
+      <Route path="/blogs" element={<Blogs />} />
+      <Route path="/support" element={<Support />} />
+      </Routes>
+      </Router>
   
     */ 
 
