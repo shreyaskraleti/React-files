@@ -1,6 +1,7 @@
 import React from "react";
 import './App.css';
-import Quotes from "./Components/Quotes";
+import Container from "./Components/Container";
+// import Quotes from "./Components/Quotes";
 //  { BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 // import Header from "./Components/Header";
 // import MainContent from "./Components/MainContent";
@@ -26,8 +27,9 @@ import Quotes from "./Components/Quotes";
 function App() {
   return(
     <div className="App">
-      <h2>Quotes Generator</h2>
-      <Quotes />
+      <Container />
+      
+      
       
       
       </div>
